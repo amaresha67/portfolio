@@ -8,7 +8,8 @@ function Home() {
             Hey, I'm Amaresha{" "}
           </h5>
           <h1 className="text-container shadow-lg rounded">
-            I Build and design MERN Stack Projects
+            I Build and design MERN Stack Projects and very proficient in Core
+            Java, python, SQL, HTML, CSS, Bootstrap
           </h1>
 
           <button className="download bg-danger-subtle rounded-2">
