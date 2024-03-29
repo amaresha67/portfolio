@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navlink:hover{
+  color: antiquewhite;
+  border-bottom: rgb(25, 220, 18) solid;
+  
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.text-container {
+  /* font-size: 24px; */
+  overflow: hidden;
+  white-space: nowrap; /*Prevent text from wrapping*/
+  /* border-right: 2px solid black; Simulate typing cursor */
+  animation: appear 2s steps(30, end)  ;
+  color: aquamarine;
+}
+
+/* Define the keyframes for the animation */
+@keyframes appear {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.home{
+  height: 83vh
+}
+.activestyle{
+  color: antiquewhite;
+  border-bottom: rgb(25, 220, 18) solid;
+  text-decoration: none;
+}
+
+.image:hover{
+  background-color: bisque;
+ 
+}
+.porfolioblock{
+  height:80px;
+  position: absolute;
+}
+.imagesblock{
+  height:400px;
+}
+.projectlink1{
+  visibility : hidden;
+}
+.projectlink:hover .projectlink1{
+  visibility : visible;
+}
+.underline{
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
